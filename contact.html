@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us |Drive Wheels</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Drive Wheels</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Our Cars</a></li>
+                <li><a href="contact.html">Contact Us (Current)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Please fill out the form below to send us a message.</p>
+
+        <form action="form-handler.php" method="post">  <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+            <br>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Visit us at our dealership located at: Baridhara J block, Dhaka. 
+            <a href="https://www.google.com/maps/search/car+showroom+location+baridhara/@23.8049925,90.418036,16z/data=!3m1!4b1?entry=ttu">Get Directions</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Drive Wheels. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
